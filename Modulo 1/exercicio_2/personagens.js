@@ -6,7 +6,7 @@ let defensor = false
 let selecao = Boolean(parseInt(prompt(`Qual personagem irá atacar?
 \npersonagem 1 -> digite 1\npersonagem 2 -> digite 0`)))
 
-if (selecao) {
+if (selecao) { 
 
     //incluindo personagem 1
     p1nome = prompt(`Digitee o nome do personagem 1: `)
@@ -45,7 +45,6 @@ else {
     p2dano = 0
 }
 }
-
 
 else{
 if (p2atq > p1def) {
