@@ -7,3 +7,4 @@ let div = num1 / num2
 let sub = num1 - num2
 
 alert("Resultado: da soma é " + soma + "\n multplicação: "+ mult + "\n Divisao: " + div + "\n subtracao: " + sub)
+ 
