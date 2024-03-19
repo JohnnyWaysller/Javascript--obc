@@ -20,18 +20,20 @@ const matriz = [
   ]
 
 
-  console.table(matriz)
-  numero = matriz[0].length
-  console.log(`${numero}`)
+  alert(matriz[0])
 
-//   matriz[0].push("nova coluna")
 //   console.table(matriz)
-//   matriz.push(["Nova Linha","nova linha"])
-//   console.table(matriz)
+//   numero = matriz[0].length
+//   console.log(`${numero}`)
 
-for (let i=0; i<matriz.length; i++){
-    for (let j = 0; j < matriz[i].length; j++) {
-        const elemento = matriz[i][j]
-        console.log("Posição: (" + i + ", " + j + ") Valor: " + elemento)
-      } 
-}
+// //   matriz[0].push("nova coluna")
+// //   console.table(matriz)
+// //   matriz.push(["Nova Linha","nova linha"])
+// //   console.table(matriz)
+
+// for (let i=0; i<matriz.length; i++){
+//     for (let j = 0; j < matriz[i].length; j++) {
+//         const elemento = matriz[i][j]
+//         console.log("Posição: (" + i + ", " + j + ") Valor: " + elemento)
+//       } 
+// }
