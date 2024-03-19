@@ -17,9 +17,6 @@ function somar (x,y){
                         // ao inves se operacao ser executada, a somar vai no lugar
 
 
-
-
-
 // ------ passando uma lista como parametro para uma funcao -----
 // Essas funções que são passadas como parâmetros geralmente são chamadas de callbacks
 
@@ -31,6 +28,8 @@ function exibirElemento(elemento, indice, array) {
     })
   }
   const lista = ["Maçã", "Banana", "Laranja", "Limão", "Uva"]
+
+  lista.forEach(exibirElemento)
   // Forma tradicional
   for (let i = 0; i < lista.length; i++) {
     exibirElemento(lista[i], i, lista)
@@ -38,9 +37,10 @@ function exibirElemento(elemento, indice, array) {
 
 
 
-  // Um exemplo comum de high-order function no javascript é a função .forEach() dos arrays
+  //--------- Um exemplo comum de high-order function no javascript é a função .forEach() dos arrays-----------
   // Forma funcional
 lista.forEach(exibirElemento)  // executar uma funcao para cada elemento de um array
+
   // Também poderia ser feito:
   lista.forEach(function (elemento, indice, array) {
     console.log({
