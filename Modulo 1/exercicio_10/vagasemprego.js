@@ -81,8 +81,8 @@ function excluirVaga(){
             "\nData Limite: "+vagas[removeIndice].dataLimite)
     if(confirma){
         vagas.splice(removeIndice,1)
+        alert(`vaga excluida com sucesso!!`)
     }
-    alert(`vaga excluida com sucesso!!`)
 }
 function listarVagas(){
     let listaVaga=""
@@ -103,7 +103,6 @@ function visualizarVagas(){
         "\nDescrição: "+vagas[indice].descricao+"\nQuantidade: "+vagas[indice].candidato.length+
         " candidatos"
     }
-    
     alert(`Consulta de Vaga:\n\n${visualizar}`)
 }
         
