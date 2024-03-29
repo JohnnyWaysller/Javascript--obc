@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+        margin: 2rem 0rem 4rem 0rem;
+    }
+    .controle, .relate {
+        
+        vertical-align: top;
+        margin: 0.2rem;
+        display: inline-block;
+        background-color: #bbbabf;
+        width: 55%;
+        height: 180px;
+    }
+    .controle{
+        width: 40%;
+        position: relative;
+        max-width: 300px; 
+        min-width: 20%;
+    }
+
+    .btn1,.btn2{
+        left: 50%;
+        top: 18%;    
+        position: absolute;
+        transform: translate(-120%,-50%); 
+    }
+    .btn2{    
+        transform: translate(10%,-50%); 
+    }
+     .align{
+        text-align: center;
+    } 
+    .field{
+        position: absolute;
+        left: 52%;
+        top: 25%;
+        transform: translate(-30%,-50%);
+        margin-top: 30px;
+        max-width: 50%;
+    }
+    .field + .field{   
+    margin-top: 60px;
+    }
+
+    .field + .field+ .field{
+        margin-top: 90px;  
+    } 
+    .lab{
+        position: absolute;
+        left: 15%;
+        top: 23%;
+        transform: translate(-30%,-50%);
+        margin-top: 30px;
+    }
+    .lab + .lab{   
+    margin-top: 60px;
+    }
+
+    .lab + .lab+ .lab{
+        margin-top: 90px;  
+    }
+    .formatedul{
+        background-color: rgb(181, 235, 235);
+        list-style: none;
+        display: block;
+        text-align: left;
+        padding-left: 5px;
+    }
+    .formatedl1{
+        text-align: left;
+        list-style: none;
+        color: rgb(99, 157, 87);
+        display: inline;
+        padding-left: 5%;
+        
+        
+        
+    } 
+    .formatedl2{
+        list-style: none;
+        text-align: left;
+        color: rgb(87, 135, 157);
+        display: inline;
+        padding-left: 25%;
+        
+        
+    }
+    .formatedl3{
+        list-style: none;
+        text-align: left;
+        color: rgb(243, 29, 6);
+        display: inline;
+        padding-left: 25%;
+        
+        
+    }
+    
+    
+    
+</style>
+<body>
+        <h1>Escalacao de Jogador</h1><hr>
+        <section class="align">
+            <div class="controle">
+                <input type="button" value="Escalar" class="btn1" onclick="escalar()">
+                <input type="button" value="Remover" class="btn2" onclick="remover()">
+                <label for="nome" class="lab">Nome</label>
+                <label for="posicao" class="lab">Posicao</label>
+                <label for="camisa" class="lab">Camisa</label>
+                <input type="text" id="nome" class="field">
+                <input type="text" id="position" class="field">
+                <input type="text" id="shirt" class="field">
+            </div>
+            <div class="relate">
+                
+            </div>
+        </section>
+        <script src="./exercicio11.js"></script>
+
+</body>
+</html>
