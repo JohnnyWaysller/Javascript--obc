@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+</head>
+<body>
+    
+    <h1>Enviando Valores do DOM para o JavaScript</h1>
+    <hr>
+    <h2>Registre-se</h2>
+    <section>
+        <label for="username">Nome do Usuário</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Digite a Senha</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="passwordConfirmation">Confirme a Senha</label>
+        <input type="password" name="passwordConfirmation" id="passwordConfirmation">
+        <br>
+        <button onclick="register(this.parentNode)">Registrar</button>
+
+    </section>
+    <script src="./enviandoValoresDOMtoJS.js"></script>
+</body>
+</html>
