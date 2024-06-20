@@ -24,8 +24,8 @@ function removeListener(){
 //adicinando outro evento ao mesmo tempo
 button.addEventListener('mouseover', function(ev){
     //a propriedade pode ser referenciada diretamete do parametro da funcao
-    // ev é referencia de onde foi acionado event ('mouseover') se esta sendo
-    // acionado de button. e currentTarget e pega esse button como Alvo
+    // ev é referencia de onde foi acionado event ('mouseover') que esta sendo
+    // acionado de button. e currentTarget  pega esse button como Alvo
     console.log(ev.currentTarget)
 
     //resultado> no mesmo botao de click no html ta sendo acionado evento mouseover
