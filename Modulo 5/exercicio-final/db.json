@@ -1,0 +1,14 @@
+{
+  "transfers": [
+    {
+      "author": "Johnny",
+      "balance": 50000,
+      "id": "1"
+    },
+    {
+      "author": "jorge22",
+      "balance": 500,
+      "id": "e589"
+    }
+  ]
+}

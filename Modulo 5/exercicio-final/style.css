@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    margin: auto;
+    margin-top: 2.5rem;
+}
+
+form label{
+    display: block;
+    margin-top: 2rem;
+    
+}
+
+section>h3{
+    display: inline-flex;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-left: -10rem;
+}
+
+section>div{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 1rem;
+    margin-left: -10rem;
+}
+
+.item {
+    display: block;
+    color: rgb(133, 57, 57);
+    
+}
+
+.tranfer-balance{
+    color: rgba(34, 120, 34, 0.838);
+}
